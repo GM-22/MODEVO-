@@ -6,6 +6,7 @@ import image_2 from '../assets/pay_card.svg';
 import image_3 from '../assets/gift_box.svg';
 import image_4 from '../assets/call_24.svg';
 import AboutUs from "../components/AboutUs";
+import NewCollection from "../components/NewCollection";
 
 const shepingItems = [
   {
@@ -94,6 +95,7 @@ const HomePage = () => {
           }
       </div>
       <AboutUs />
+      <NewCollection />
     </>
   );
 };
