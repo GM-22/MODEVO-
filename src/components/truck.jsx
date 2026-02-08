@@ -2,7 +2,7 @@ import React from 'react'
 
 const Truck = (props) => {
   return (
-    <div className="h-[184px] w-[296px] px-[70px] py-[29px] border border-[#E7E7E7] flex flex-col items-center justify-center text-center">
+    <div className="h-[184px] w-[296px] px-[70px] py-[29px] border border-[#E7E7E7] flex flex-col items-center justify-center text-center ">
   
   <img
     src={props.img}
