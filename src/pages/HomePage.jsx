@@ -7,6 +7,8 @@ import image_3 from '../assets/gift_box.svg';
 import image_4 from '../assets/call_24.svg';
 import AboutUs from "../components/AboutUs";
 import NewCollection from "../components/NewCollection";
+import ProductSlider from "../components/ProductSlider";
+import Featured from "../components/Featured";
 
 const shepingItems = [
   {
@@ -95,6 +97,8 @@ const HomePage = () => {
           }
       </div>
       <AboutUs />
+      <ProductSlider />
+      <Featured />
       <NewCollection />
     </>
   );
