@@ -11,6 +11,8 @@ import ProductSlider from "../components/ProductSlider";
 import Featured from "../components/Featured";
 import DealOfTheDay from "../components/DealOfTheDay";
 import Exclusive from "../components/Exclusive";
+import FreshLooks from "../components/FreshLooks";
+import Connected from "../components/connected";
 
 const shepingItems = [
   {
@@ -104,6 +106,8 @@ const HomePage = () => {
       <NewCollection />
       <DealOfTheDay />
       <Exclusive />
+      <FreshLooks />
+      <Connected />
     </>
   );
 };
