@@ -10,7 +10,7 @@ import SmallCards from './SmallCards'
 
 const NewCollection = () => {
   return (
-    <div className='container p-20 flex gap-[69px]'>
+    <div className='container mx-auto p-20 flex gap-[69px]'>
         <div className=''>
             <div className='w-[587px] mb-12'>
                 <h3 className=' text-[40px] font-medium leading-10.5 text-black-222 mb-4 '>New Arrival Collection</h3>
@@ -22,7 +22,7 @@ const NewCollection = () => {
                 <img src={Collection} alt="" className=' h-[590px] w-[587px] ' />
             </div>
         </div>
-        <div className=' grid grid-cols-2 '>
+        <div className=' grid grid-cols-2 gap-8 '>
             <SmallCards 
                 img = {Heel}
                 title="Golden Strappy Heels"

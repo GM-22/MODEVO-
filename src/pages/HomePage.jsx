@@ -9,6 +9,8 @@ import AboutUs from "../components/AboutUs";
 import NewCollection from "../components/NewCollection";
 import ProductSlider from "../components/ProductSlider";
 import Featured from "../components/Featured";
+import DealOfTheDay from "../components/DealOfTheDay";
+import Exclusive from "../components/Exclusive";
 
 const shepingItems = [
   {
@@ -100,6 +102,8 @@ const HomePage = () => {
       <ProductSlider />
       <Featured />
       <NewCollection />
+      <DealOfTheDay />
+      <Exclusive />
     </>
   );
 };

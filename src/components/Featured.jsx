@@ -6,6 +6,9 @@ import img5 from "../assets/image_9.jpg";
 import img6 from "../assets/image_10.jpg";
 import img7 from "../assets/image_11.jpg";
 import img8 from "../assets/image_12.jpg";
+import search from "../assets/searchBtn.svg";
+import loveBtn from "../assets/loveBtn.svg";
+import buy from "../assets/buyBtn.svg";
 import Slider from "react-slick";
 
 const Featured = () => {
@@ -14,7 +17,7 @@ const Featured = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
   };
   return (
     <div className=" h-[824px] container py-[56px] text-center  ">
@@ -94,8 +97,15 @@ const Featured = () => {
 };
 const FeatureCards = ({ image, title, colors = [], price }) => {
   return (
-    <div className=" w-[296px] h-[521px] ">
-      <img src={image} className=" h-[419px] mb-5" alt="" />
+    <div className=" w-[296px] h-[521px] group">
+      <div className=" relative  ">
+        <img src={image} className=" h-[419px] mb-5" alt="" />
+        <div className="w-[166px] absolute flex gap-5 hidden group-hover:flex   z-10 left-14 transition-all bottom-7  " >
+          <img src={search} alt="" />
+          <img src={loveBtn} alt="" />
+          <img src={buy} alt="" />
+        </div>
+      </div>
       <h4 className=" text-black222 text-4 font-medium text-center mb-2 ">
         {title}
       </h4>
@@ -109,7 +119,14 @@ const FeatureCards = ({ image, title, colors = [], price }) => {
         ))}
       </div>
       <h4 className=" text-black222 text-4 font-medium leading-[21px] text-center mb-2 ">
-        {price}
+        <div className=" group-hover:hidden ">
+          {price}
+        </div>
+        <div>
+          <button className=" hidden group-hover:flex mx-auto ">
+            <a className=" text-3.5 font-semibold leading-auto text-black222 underline " href="#">ADD TO CART </a>
+          </button>
+        </div>
       </h4>
     </div>
   );
