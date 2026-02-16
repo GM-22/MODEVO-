@@ -14,6 +14,7 @@ import Exclusive from "../components/Exclusive";
 import FreshLooks from "../components/FreshLooks";
 import Connected from "../components/connected";
 import Blogs from "../components/Blog";
+import Testimonial from "../components/testimonial";
 
 const shepingItems = [
   {
@@ -109,7 +110,9 @@ const HomePage = () => {
       <Exclusive />
       <FreshLooks />
       <Blogs />
+       <Testimonial />
       <Connected />
+     
     </>
   );
 };

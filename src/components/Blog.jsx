@@ -21,44 +21,45 @@ const Blogs = () => {
   return (
     <section>
         <div className='container h-[970px] '>
-          <div className=" text-center mb-[45px]">
+          <div className=' mx-auto w-[1280px] '>
+            <div className=" text-center mb-[45px]">
             <h3 className=" text-[40px] leading-[55px] tracking-[0.46%] font-medium text-black222 mb-4 ">
               Our Latest News & Blogs
             </h3>
             <h4 className=" text-[18px] leading-[27px] font-normal text-gray75  ">
               Limited-time styles at unbeatable prices, Shop today’s hottest picks
               before they’re gone!Stay inspired with trend stories, expert styling tips, and fresh fashion insights — all curated just for you.
-
             </h4>
-          </div>
-          <div>
-            <div className="slider-container">
-              <Slider {...settings}>
-                <div>
-                  <Card image={img1} title={"Effortless Style Made Easy"} para={"Look stylish with minimal effort using versatile basics perfect for everyday wear."} />
-                </div>
-                <div>
-                  <Card image={img2} title={"Oversized Denim Looks Are In"} para={"From jackets to shirts, oversized pieces bring comfort and a modern edge to your wardrobe."} />
-                </div>
-                <div>
-                  <Card image={img3} title={"Oversized Denim Looks Are In"} para={"From jackets to shirts, oversized pieces bring comfort and a modern edge to your wardrobe."} />
-                </div>
-                <div>
-                  <Card image={img4} title={"Effortless Style Made Easy"} para={"Look stylish with minimal effort using versatile basics perfect for everyday wear."} />
-                </div>
-                <div>
-                  <Card image={img5} title={"Oversized Denim Looks Are In"} para={"From jackets to shirts, oversized pieces bring comfort and a modern edge to your wardrobe."} />
-                </div>
-                <div>
-                  <Card image={img6} title={"Oversized Denim Looks Are In"} para={"From jackets to shirts, oversized pieces bring comfort and a modern edge to your wardrobe."} />
-                </div>
-                <div>
-                  <Card image={img7} title={"Effortless Style Made Easy"} para={"Look stylish with minimal effort using versatile basics perfect for everyday wear."} />
-                </div>
-                <div>
-                  <Card image={img8} title={"Oversized Denim Looks Are In"} para={"From jackets to shirts, oversized pieces bring comfort and a modern edge to your wardrobe."} />
-                </div>
-              </Slider>
+            </div>
+            <div>
+              <div className="slider-container">
+                <Slider {...settings}>
+                  <div>
+                    <Card image={img1} title={"Effortless Style Made Easy"} para={"Look stylish with minimal effort using versatile basics perfect for everyday wear."} />
+                  </div>
+                  <div>
+                    <Card image={img2} title={"Oversized Denim Looks Are In"} para={"From jackets to shirts, oversized pieces bring comfort and a modern edge to your wardrobe."} />
+                  </div>
+                  <div>
+                    <Card image={img3} title={"Oversized Denim Looks Are In"} para={"From jackets to shirts, oversized pieces bring comfort and a modern edge to your wardrobe."} />
+                  </div>
+                  <div>
+                    <Card image={img4} title={"Effortless Style Made Easy"} para={"Look stylish with minimal effort using versatile basics perfect for everyday wear."} />
+                  </div>
+                  <div>
+                    <Card image={img5} title={"Oversized Denim Looks Are In"} para={"From jackets to shirts, oversized pieces bring comfort and a modern edge to your wardrobe."} />
+                  </div>
+                  <div>
+                    <Card image={img6} title={"Oversized Denim Looks Are In"} para={"From jackets to shirts, oversized pieces bring comfort and a modern edge to your wardrobe."} />
+                  </div>
+                  <div>
+                    <Card image={img7} title={"Effortless Style Made Easy"} para={"Look stylish with minimal effort using versatile basics perfect for everyday wear."} />
+                  </div>
+                  <div>
+                    <Card image={img8} title={"Oversized Denim Looks Are In"} para={"From jackets to shirts, oversized pieces bring comfort and a modern edge to your wardrobe."} />
+                  </div>
+                </Slider>
+              </div>
             </div>
           </div>
         </div>
