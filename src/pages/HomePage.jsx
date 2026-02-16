@@ -13,6 +13,7 @@ import DealOfTheDay from "../components/DealOfTheDay";
 import Exclusive from "../components/Exclusive";
 import FreshLooks from "../components/FreshLooks";
 import Connected from "../components/connected";
+import Blogs from "../components/Blog";
 
 const shepingItems = [
   {
@@ -107,6 +108,7 @@ const HomePage = () => {
       <DealOfTheDay />
       <Exclusive />
       <FreshLooks />
+      <Blogs />
       <Connected />
     </>
   );
