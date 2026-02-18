@@ -6,20 +6,13 @@
   padding-inline: 2rem;
   
 }
+
 .box{
   filter: drop-shadow(0 4px 4px rgba(0,0,0,0.32));
   position: relative;
   
 }
 .box::after{
-  /* height: 0;
- 
-  
- 
-  
-  bottom: -34px;
-  left: 0px;
- */
  content: " ";
  height: 0px;
  width: 0px;
@@ -35,6 +28,11 @@
 
 }
 
+@layer base{
+  body{
+    @apply font-jost;
+  }
+}
 @theme {
   /* Colors */
   --color-black: #000000; 
