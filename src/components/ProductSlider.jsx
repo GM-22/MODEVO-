@@ -25,7 +25,7 @@ const ProductSlider = () => {
     cssEase: "linear"
   }
   return (
-    <div className="slider-container  container h-[186px] ">
+    <div className="slider-container  lg:container h-[186px] ">
       <Slider {...settings}>
         <div>
           <ProductSliderImage image={img1} />

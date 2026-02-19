@@ -20,15 +20,14 @@ const Blogs = () => {
   };
   return (
     <section>
-        <div className='container h-[970px] '>
+        <div className=' lg:container h-[970px] '>
           <div className=' mx-auto w-[1280px] '>
             <div className=" text-center mb-[45px]">
             <h3 className=" text-[40px] leading-[55px] tracking-[0.46%] font-medium text-black222 mb-4 ">
               Our Latest News & Blogs
             </h3>
             <h4 className=" text-[18px] leading-[27px] font-normal text-gray75  ">
-              Limited-time styles at unbeatable prices, Shop today’s hottest picks
-              before they’re gone!Stay inspired with trend stories, expert styling tips, and fresh fashion insights — all curated just for you.
+              Stay inspired with trend stories, expert styling tips, and fresh fashion insights — all curated just for you.
             </h4>
             </div>
             <div>

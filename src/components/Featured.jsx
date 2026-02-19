@@ -20,11 +20,11 @@ const Featured = () => {
     slidesToScroll: 2,
   };
   return (
-    <div className=" h-[824px] container py-[56px] text-center  ">
+    <div className=" max-w-[1280px]  h-[824px] lg:container py-[56px] text-center mx-auto    ">
       <h3 className=" text-black222 text-[40px] leading-auto font-medium tracking-[0.46%] mb-15 ">
         Featured
       </h3>
-      <div className="slider-container">
+      <div className="slider-container max-w-[1280px] mx-auto  ">
         <Slider {...settings}>
           <div>
             <FeatureCards

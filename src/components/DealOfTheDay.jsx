@@ -5,7 +5,7 @@ import img3 from "../assets/image_4.jpg";
 import Button from "./Button";
 const DealOfTheDay = () => {
   return (
-    <section className=" container  py-20 ">
+    <section className=" lg:container  py-20 ">
       <div className=" mx-auto w-[1280px]">
         <div className=" text-center mb-[45px]">
           <h4 className=" text-[18px] leading-[27px] font-normal text-gray75 mb-2 ">

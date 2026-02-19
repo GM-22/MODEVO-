@@ -10,7 +10,7 @@ import SmallCards from './SmallCards'
 
 const NewCollection = () => {
   return (
-    <div className='container mx-auto p-20 flex gap-[69px]'>
+    <div className='lg:container  p-20 flex justify-center gap-[69px]'>
         <div className=''>
             <div className='w-[587px] mb-12'>
                 <h3 className=' text-[40px] font-medium leading-10.5 text-black-222 mb-4 '>New Arrival Collection</h3>

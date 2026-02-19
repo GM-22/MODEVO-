@@ -41,7 +41,7 @@ const menuItems = [
 const Header = () => {
   return (
     <header className="bg-white">
-        <nav className="container  py-7.5">
+        <nav className="lg:container  py-7.5">
             <div className="flex items-center justify-between mb-3.25">
                 {/* Logo */}
                 <div className="w-39.75 h-10 text-[black] flex items-center text-[24px] leading-9 font-jost font-semibold tracking-[0.46%]">
