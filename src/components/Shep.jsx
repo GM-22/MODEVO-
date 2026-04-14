@@ -39,7 +39,7 @@ const Shep = () => {
           {
             shepingItems.map((items) => {
               return(
-                    <div key={items.id} className="h-[184px] w-[336px] px-[70px] py-[29px] border border-[#E7E7E7] flex flex-col   items-center justify-center text-center">
+                    <div key={items.id} className="h-[184px] w-[336px] px-[70px] py-[29px]  border-[#E7E7E7] flex flex-col   items-center justify-center text-center">
                       <Sheping img={items.img} heading={items.heading}  para={items.para}/>                
                   </div>
               )

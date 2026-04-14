@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "../components/Button";
+import sm1 from '../assets/sm-1.jpg'
+import sm2 from '../assets/sm-2.jpg'
 
 const Sale = () => {
   return (
@@ -9,9 +11,9 @@ const Sale = () => {
         {/* Sale Card 1 */}
         <div
           className="h-[344px] w-[624px] bg-cover bg-no-repeat pt-[34px] pl-[40px]"
-          style={{
-            backgroundImage: "url('../src/assets/sm-1.jpg')",
-          }}
+         
+            style={{ backgroundImage: `url(${sm1})` }}
+            
         >
           <div className="h-[204px] w-[289px]">
             <p className="text-[16px] leading-[42px] tracking-[0.46px] text-[#757575] font-medium">
@@ -27,9 +29,7 @@ const Sale = () => {
         {/* Sale Card 2 */}
         <div
           className="h-[344px] w-[624px] bg-cover bg-no-repeat pt-[34px] pl-[40px] bg-black/25 "
-          style={{
-            backgroundImage: "url('../src/assets/sm-2.jpg')",
-          }}
+            style={{ backgroundImage: `url(${sm2})` }}
         >
           <div className="h-[204px] w-[289px ] ">
             <p className="text-[16px] leading-[42px] tracking-[0.46px] text-[#444444] font-medium">

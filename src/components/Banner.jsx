@@ -1,14 +1,14 @@
 import React from 'react'
 import Button from './Button'
+import banner from '../assets/background_image.png'
 const Banner = () => {
   return (
     <div className=" container ">
         <div
           className="  h-180 bg-cover mb-[47px]
                         pt-[160px] pr-[547px] pb-[218px] pl-[109px]"
-          style={{
-            backgroundImage: "url('../src/assets/background_image.png')",
-          }}
+        
+          style={{ backgroundImage: `url(${banner})` }}
         >
           <div className="w-[624px] h-[342px] text-[#222222]">
             <h3 className="text-[64px] font-medium leading-[85px] tracking-[0.46px] mb-[20px]">
